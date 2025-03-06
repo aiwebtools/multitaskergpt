@@ -42,10 +42,10 @@ const Index: React.FC = () => {
         <Navbar />
         <main>
           <Hero />
+          <VideoSection />
           <section id="features">
             <Features />
           </section>
-          <VideoSection />
           <Testimonials />
           <FAQ />
           <Disclaimer />
