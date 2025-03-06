@@ -54,19 +54,19 @@ const Navbar: React.FC = () => {
             </a>
             <a 
               href="#faq" 
-              className="text-white hover:text-cyber-glow transition-colors text-xs sm:text-sm lg:text-base"
+              className="text-white hover:text-cyber-glow transition-colors text-xs sm:text-sm lg:text-base font-semibold"
             >
               FAQ
             </a>
             <a 
               href="#disclaimer" 
-              className="text-white hover:text-cyber-glow transition-colors text-xs sm:text-sm lg:text-base"
+              className="text-white hover:text-cyber-glow transition-colors text-xs sm:text-sm lg:text-base font-semibold"
             >
               Disclaimer
             </a>
             <a 
               href="https://www.aiwebtools.ai" 
-              className="text-white hover:text-cyber-glow transition-colors text-xs sm:text-sm lg:text-base" 
+              className="text-white hover:text-cyber-glow transition-colors text-xs sm:text-sm lg:text-base font-semibold" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -110,21 +110,21 @@ const Navbar: React.FC = () => {
             </a>
             <a 
               href="#faq" 
-              className="text-white hover:text-cyber-glow transition-colors py-2.5 px-4 rounded-md text-base text-center font-cyber" 
+              className="text-white hover:text-cyber-glow transition-colors py-2.5 px-4 rounded-md text-base text-center font-semibold" 
               onClick={closeMobileMenu}
             >
               FAQ
             </a>
             <a 
               href="#disclaimer" 
-              className="text-white hover:text-cyber-glow transition-colors py-2.5 px-4 rounded-md text-base text-center font-cyber" 
+              className="text-white hover:text-cyber-glow transition-colors py-2.5 px-4 rounded-md text-base text-center font-semibold" 
               onClick={closeMobileMenu}
             >
               Disclaimer
             </a>
             <a 
               href="https://www.aiwebtools.ai" 
-              className="text-white hover:text-cyber-glow transition-colors py-2.5 px-4 rounded-md text-base text-center font-cyber" 
+              className="text-white hover:text-cyber-glow transition-colors py-2.5 px-4 rounded-md text-base text-center font-semibold" 
               onClick={closeMobileMenu}
               target="_blank" 
               rel="noopener noreferrer"
