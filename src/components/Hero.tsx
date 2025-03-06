@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
     <div className="relative min-h-[90vh] flex items-center justify-center pt-12 sm:pt-16 pb-8" ref={containerRef}>
       <div className="section text-center px-4 sm:px-6">
         <div className="space-y-4 sm:space-y-6 max-w-4xl mx-auto">
-          <div className="animate-on-scroll opacity-0" style={{ animationDelay: '0.2s' }}>
+          <div className="animate-on-scroll opacity-0" style={{ animationDelay: '0.1s' }}>
             <span className="inline-block py-1 px-3 rounded-full bg-cyber-glow/10 text-cyber-glow text-xs sm:text-sm font-semibold mb-3 sm:mb-4 border border-cyber-glow/30">
               NEXT GENERATION AI
             </span>
@@ -47,17 +47,17 @@ const Hero: React.FC = () => {
           <h1 
             ref={titleRef} 
             className="heading-xl opacity-0 text-2xl sm:text-4xl md:text-5xl lg:text-6xl px-2"
-            style={{ animationDelay: '0.4s' }}
+            style={{ animationDelay: '0.2s' }}
           >
             <span className="title-gradient animate-glow-text">MULTITASKER GPT</span>
           </h1>
           
-          <p className="subtitle animate-on-scroll opacity-0 max-w-3xl mx-auto px-3 sm:px-4 text-sm sm:text-base md:text-lg" style={{ animationDelay: '0.6s' }}>
+          <p className="subtitle animate-on-scroll opacity-0 max-w-3xl mx-auto px-3 sm:px-4 text-sm sm:text-base md:text-lg" style={{ animationDelay: '0.3s' }}>
             The advanced AI model designed to handle multiple complex tasks simultaneously, 
             ensuring comprehensive web research and detailed execution for each task.
           </p>
           
-          <div className="pt-4 animate-on-scroll opacity-0" style={{ animationDelay: '0.8s' }}>
+          <div className="pt-4 animate-on-scroll opacity-0" style={{ animationDelay: '0.4s' }}>
             <a 
               href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt" 
               className="btn-primary text-sm sm:text-base inline-block py-2 sm:py-3 px-4 sm:px-6"
@@ -68,14 +68,14 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <blockquote className="mt-6 sm:mt-8 italic text-sm sm:text-base text-gray-300 animate-on-scroll opacity-0 px-4" style={{ animationDelay: '1s' }}>
+          <blockquote className="mt-6 sm:mt-8 italic text-sm sm:text-base text-gray-300 animate-on-scroll opacity-0" style={{ animationDelay: '0.5s' }}>
             "Without data, you're just another person with an opinion."
             <footer className="text-gray-400 mt-2 text-xs sm:text-sm">— W. Edwards Deming</footer>
           </blockquote>
         </div>
 
         {/* 3D Floating Element with buttons */}
-        <div className="mt-8 sm:mt-12 relative h-24 sm:h-32 animate-on-scroll opacity-0" style={{ animationDelay: '1.2s' }}>
+        <div className="mt-8 sm:mt-12 relative h-24 sm:h-32 animate-on-scroll opacity-0" style={{ animationDelay: '0.6s' }}>
           <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full justify-center px-4">
             <button 
               onClick={scrollToFeatures}
