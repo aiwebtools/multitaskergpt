@@ -21,6 +21,10 @@ const Disclaimer: React.FC = () => {
           </p>
           
           <p>
+            <strong className="text-white">TASK COMPLEXITY:</strong> If tasks are extremely complex, MULTITASKER GPT may break them into manageable parts. No guarantees of multitasking are provided for highly complex or resource-intensive operations. The AI may adapt its approach based on task complexity to ensure quality results.
+          </p>
+          
+          <p>
             <strong className="text-white">DATA ACCURACY:</strong> While MULTITASKER GPT strives to provide accurate and up-to-date information through its web searches, we do not guarantee the completeness, reliability, or accuracy of this information. Users should independently verify any critical information before making decisions based on it.
           </p>
           
