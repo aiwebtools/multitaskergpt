@@ -5,20 +5,20 @@ import { Phone, Mail } from 'lucide-react';
 const Footer: React.FC = () => {
   return (
     <footer className="bg-cyber-dark/90 border-t border-cyber-blue/20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10">
           {/* Logo and Tagline */}
           <div className="flex flex-col items-center md:items-start">
-            <a href="/" className="mb-4">
-              <img src="/logo.svg" alt="MULTITASKER GPT" className="h-10" />
+            <a href="/" className="mb-3 sm:mb-4">
+              <img src="/logo.svg" alt="MULTITASKER GPT" className="h-8 sm:h-10" />
             </a>
-            <blockquote className="italic text-gray-400 mt-2 mb-4 text-sm">
+            <blockquote className="italic text-gray-400 mt-2 mb-4 text-xs sm:text-sm">
               "Without data, you're just another person with an opinion."
               <footer className="text-gray-500 mt-1">— W. Edwards Deming</footer>
             </blockquote>
             <a 
               href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt" 
-              className="btn-primary text-sm"
+              className="btn-primary text-xs sm:text-sm py-2 px-4"
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -28,8 +28,8 @@ const Footer: React.FC = () => {
 
           {/* Quick Links */}
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="font-cyber text-lg text-white mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <h3 className="font-cyber text-base sm:text-lg text-white mb-3 sm:mb-4">Quick Links</h3>
+            <ul className="space-y-1.5 sm:space-y-2 text-sm">
               <li>
                 <a href="#faq" className="text-gray-400 hover:text-cyber-glow transition-colors">FAQ</a>
               </li>
@@ -71,28 +71,28 @@ const Footer: React.FC = () => {
 
           {/* Contact */}
           <div className="flex flex-col items-center md:items-start">
-            <h3 className="font-cyber text-lg text-white mb-4">Contact Us</h3>
-            <div className="space-y-3">
+            <h3 className="font-cyber text-base sm:text-lg text-white mb-3 sm:mb-4">Contact Us</h3>
+            <div className="space-y-2 sm:space-y-3 text-sm">
               <a 
                 href="tel:+14758008096" 
                 className="flex items-center text-gray-400 hover:text-cyber-glow transition-colors"
               >
-                <Phone size={16} className="mr-2" />
+                <Phone size={14} className="mr-2" />
                 (475) 800-8096
               </a>
               <a 
                 href="mailto:Contact@ai-webtools.com" 
                 className="flex items-center text-gray-400 hover:text-cyber-glow transition-colors"
               >
-                <Mail size={16} className="mr-2" />
+                <Mail size={14} className="mr-2" />
                 Contact@ai-webtools.com
               </a>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-5 sm:mt-8">
               <a 
                 href="https://www.aiwebtools.ai" 
-                className="inline-block py-2 px-6 rounded-full cyber-border bg-cyber-dark/60 text-white hover:bg-cyber-dark hover:text-cyber-glow transition-all duration-300 hover:shadow-[0_0_10px_0_rgba(0,238,255,0.4)]"
+                className="inline-block py-2 px-4 sm:py-2 sm:px-6 rounded-full cyber-border bg-cyber-dark/60 text-white text-sm hover:bg-cyber-dark hover:text-cyber-glow transition-all duration-300 hover:shadow-[0_0_10px_0_rgba(0,238,255,0.4)]"
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -102,10 +102,10 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-gray-800 text-center">
+        <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-800 text-center">
           <a 
             href="https://www.aiwebtools.ai" 
-            className="text-gray-400 hover:text-cyber-glow transition-colors"
+            className="text-gray-400 hover:text-cyber-glow transition-colors text-xs sm:text-sm"
             target="_blank" 
             rel="noopener noreferrer"
           >
