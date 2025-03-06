@@ -63,7 +63,9 @@ const Features: React.FC = () => {
     if (containerRef.current) {
       const elements = containerRef.current.querySelectorAll('.feature-card');
       elements.forEach((el, index) => {
-        el.style.animationDelay = `${0.1 * index}s`;
+        // Fix: Cast the element to HTMLElement to ensure it has the style property
+        const htmlEl = el as HTMLElement;
+        htmlEl.style.animationDelay = `${0.1 * index}s`;
         observer.observe(el);
       });
     }
