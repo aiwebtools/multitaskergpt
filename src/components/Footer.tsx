@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
             </blockquote>
             <a 
               href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt" 
-              className="btn-primary text-xs sm:text-sm py-2 px-4"
+              className="btn-primary text-xs sm:text-sm py-2 px-4 text-black font-extrabold"
               target="_blank" 
               rel="noopener noreferrer"
             >

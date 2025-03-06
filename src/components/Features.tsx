@@ -100,7 +100,7 @@ const Features: React.FC = () => {
       <div className="mt-12 sm:mt-16 text-center">
         <a 
           href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt" 
-          className="btn-primary inline-flex items-center gap-2 text-sm sm:text-base"
+          className="btn-primary inline-flex items-center gap-2 text-sm sm:text-base text-black font-extrabold"
           target="_blank" 
           rel="noopener noreferrer"
         >

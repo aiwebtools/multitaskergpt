@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
           <div className="hidden md:flex items-center space-x-4 lg:space-x-6">
             <a 
               href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt" 
-              className="btn-primary text-xs sm:text-sm py-2 px-4" 
+              className="btn-primary text-xs sm:text-sm py-2 px-4 text-black font-extrabold" 
               target="_blank" 
               rel="noopener noreferrer"
             >
@@ -101,7 +101,7 @@ const Navbar: React.FC = () => {
             
             <a 
               href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt" 
-              className="btn-primary text-center py-2.5 px-5 text-sm" 
+              className="btn-primary text-center py-2.5 px-5 text-sm text-black font-extrabold" 
               onClick={closeMobileMenu}
               target="_blank" 
               rel="noopener noreferrer"
