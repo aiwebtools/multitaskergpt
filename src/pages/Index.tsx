@@ -1,11 +1,54 @@
-// Update this page (the content is just a fallback if you fail to update the page)
 
-const Index = () => {
+import React, { useEffect } from 'react';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Features from '../components/Features';
+import VideoSection from '../components/VideoSection';
+import Testimonials from '../components/Testimonials';
+import FAQ from '../components/FAQ';
+import Disclaimer from '../components/Disclaimer';
+import Footer from '../components/Footer';
+import BackgroundStars from '../components/BackgroundStars';
+
+const Index: React.FC = () => {
+  useEffect(() => {
+    // Smooth scroll to sections
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash) {
+        const element = document.querySelector(hash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    };
+
+    window.addEventListener('hashchange', handleHashChange);
+    // Handle direct navigation to hash URL
+    if (window.location.hash) {
+      setTimeout(handleHashChange, 500);
+    }
+
+    return () => {
+      window.removeEventListener('hashchange', handleHashChange);
+    };
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
+    <div className="flex flex-col min-h-screen relative overflow-hidden">
+      <BackgroundStars />
+      
+      <div className="content-container">
+        <Navbar />
+        <main>
+          <Hero />
+          <Features />
+          <VideoSection />
+          <Testimonials />
+          <FAQ />
+          <Disclaimer />
+        </main>
+        <Footer />
       </div>
     </div>
   );
