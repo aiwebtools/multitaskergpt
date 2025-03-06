@@ -27,6 +27,13 @@ const Hero: React.FC = () => {
     return () => observer.disconnect();
   }, []);
 
+  const scrollToFeatures = () => {
+    const featuresSection = document.getElementById('features');
+    if (featuresSection) {
+      featuresSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="relative min-h-screen flex items-center justify-center pt-16" ref={containerRef}>
       <div className="section text-center">
@@ -67,12 +74,24 @@ const Hero: React.FC = () => {
           </blockquote>
         </div>
 
-        {/* 3D Floating Element */}
+        {/* 3D Floating Element with buttons */}
         <div className="mt-16 relative h-32 animate-on-scroll opacity-0" style={{ animationDelay: '1.2s' }}>
-          <div className="absolute left-1/2 transform -translate-x-1/2 animate-float">
-            <div className="cyber-border rounded-lg px-6 py-3 bg-cyber-dark/60 backdrop-blur-md animate-pulse-glow">
+          <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col sm:flex-row gap-4 w-full justify-center">
+            <button 
+              onClick={scrollToFeatures}
+              className="cyber-border rounded-lg px-6 py-3 bg-cyber-dark/60 backdrop-blur-md hover:animate-pulse-glow transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,238,255,0.5)]"
+            >
               <span className="text-cyber-glow font-cyber text-sm">SCROLL DOWN TO LEARN MORE</span>
-            </div>
+            </button>
+            
+            <a 
+              href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt"
+              target="_blank"
+              rel="noopener noreferrer" 
+              className="cyber-border rounded-lg px-6 py-3 bg-cyber-blue/20 backdrop-blur-md hover:animate-pulse-glow transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,238,255,0.5)]"
+            >
+              <span className="text-cyber-glow font-cyber text-sm">TRY IT NOW</span>
+            </a>
           </div>
         </div>
       </div>
