@@ -75,7 +75,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* 3D Floating Element with buttons */}
-        <div className="mt-8 sm:mt-12 relative h-24 sm:h-32 animate-on-scroll opacity-0" style={{ animationDelay: '0.3s' }}>
+        <div className="mt-8 sm:mt-12 relative h-24 sm:h-32 animate-on-scroll opacity-0" style={{ animationDelay: '0.2s' }}>
           <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full justify-center px-4">
             <button 
               onClick={scrollToFeatures}
