@@ -40,7 +40,7 @@ const Hero: React.FC = () => {
         <div className="space-y-4 sm:space-y-6 max-w-4xl mx-auto">
           <div className="animate-on-scroll opacity-0" style={{ animationDelay: '0.05s' }}>
             <span className="inline-block py-1 px-3 rounded-full bg-cyber-glow/10 text-cyber-glow text-xs sm:text-sm font-semibold mb-3 sm:mb-4 border border-cyber-glow/30">
-              NEXT GENERATION AI
+              NEXT GENERATION MULTITASKING AI
             </span>
           </div>
           
