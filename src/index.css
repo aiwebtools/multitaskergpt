@@ -130,6 +130,14 @@
   .p-responsive {
     @apply p-4 sm:p-6 md:p-8;
   }
+  
+  .neo-blur {
+    @apply bg-cyber-dark/80 backdrop-blur-md border border-white/10 shadow-[0_0_15px_rgba(0,0,0,0.3)];
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-to-r from-white via-white/90 to-white/70 bg-clip-text text-transparent;
+  }
 }
 
 .stars-container {

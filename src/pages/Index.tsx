@@ -9,6 +9,7 @@ import FAQ from '../components/FAQ';
 import Disclaimer from '../components/Disclaimer';
 import Footer from '../components/Footer';
 import BackgroundStars from '../components/BackgroundStars';
+import DisclaimerPopup from '../components/DisclaimerPopup';
 
 const Index: React.FC = () => {
   useEffect(() => {
@@ -37,6 +38,7 @@ const Index: React.FC = () => {
   return (
     <div className="flex flex-col min-h-screen relative overflow-hidden">
       <BackgroundStars />
+      <DisclaimerPopup />
       
       <div className="content-container">
         <Navbar />
