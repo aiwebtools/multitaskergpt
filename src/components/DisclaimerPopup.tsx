@@ -66,8 +66,8 @@ const DisclaimerPopup: React.FC = () => {
             </p>
             
             <p className="text-gray-300">
-              We do not store your personal tasks or search history beyond what's needed to 
-              improve the service.
+              We do not have access to your chat history. Your conversations and tasks remain 
+              private, and we do not store any of your personal information.
             </p>
           </div>
           
