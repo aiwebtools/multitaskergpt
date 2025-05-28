@@ -35,7 +35,7 @@ const VideoSection: React.FC = () => {
           <iframe 
             ref={videoRef} 
             className="absolute top-0 left-0 w-full h-full" 
-            src="https://www.youtube.com/embed/MCAjBSrrvx4?autoplay=1&mute=0&controls=1&showinfo=0&rel=0&modestbranding=1&hd=1" 
+            src="https://www.youtube.com/embed/y-YZCOzIuDg?autoplay=1&mute=0&controls=1&showinfo=0&rel=0&modestbranding=1&hd=1" 
             title="MULTITASKER GPT Demo" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowFullScreen
