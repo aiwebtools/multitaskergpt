@@ -8,15 +8,15 @@ const Disclaimer: React.FC = () => {
       <div className="text-center mb-12">
         <h2 className="heading-lg mb-4 title-gradient inline-block">Legal Disclaimer</h2>
         <div className="flex justify-center mb-6">
-          <div className="w-16 h-16 rounded-full flex items-center justify-center cyber-border">
+          <div className="w-16 h-16 rounded-full flex items-center justify-center cyber-border animate-divine-pulse">
             <ShieldAlert size={32} className="text-cyber-glow" />
           </div>
         </div>
       </div>
 
-      <div className="max-w-4xl mx-auto glass-card rounded-xl p-6 md:p-8">
+      <div className="max-w-4xl mx-auto glass-card rounded-xl p-6 md:p-8 divine-glow-border">
         <div className="space-y-6 text-sm text-gray-300">
-          <div className="p-4 rounded-lg bg-cyber-blue/10 border border-cyber-blue/20 mb-6">
+          <div className="p-4 rounded-lg bg-cyber-blue/10 border border-cyber-blue/20 mb-6 divine-shimmer">
             <p className="text-cyber-glow font-semibold text-center">
               <strong>IMPORTANT:</strong> MULTITASKER GPT is provided for informational, educational, and research purposes only.
             </p>
