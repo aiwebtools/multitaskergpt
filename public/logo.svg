@@ -2,8 +2,8 @@
 <svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
   <!-- Eye Icon -->
   <g transform="translate(10, 12)">
-    <ellipse cx="13" cy="13" rx="12" ry="8" fill="none" stroke="url(#paint0_linear)" stroke-width="2"/>
-    <circle cx="13" cy="13" r="4" fill="url(#paint0_linear)"/>
+    <ellipse cx="13" cy="13" rx="12" ry="8" fill="none" stroke="url(#eyeGradient)" stroke-width="2"/>
+    <circle cx="13" cy="13" r="4" fill="url(#eyeGradient)"/>
     <circle cx="15" cy="11" r="1.5" fill="white"/>
   </g>
   
@@ -14,7 +14,7 @@
   <text x="40" y="35" font-family="Inter, sans-serif" font-size="8" font-weight="400" fill="#888">Presented by AiWebTools.AI</text>
   
   <defs>
-    <linearGradient id="paint0_linear" x1="25" y1="5" x2="0" y2="21" gradientUnits="userSpaceOnUse">
+    <linearGradient id="eyeGradient" x1="25" y1="5" x2="0" y2="21" gradientUnits="userSpaceOnUse">
       <stop stop-color="#00EEFF"/>
       <stop offset="1" stop-color="#0099FF"/>
     </linearGradient>
