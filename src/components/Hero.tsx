@@ -67,21 +67,21 @@ const Hero: React.FC = () => {
         <div className="mt-8 sm:mt-12 relative h-24 sm:h-32 fade-in-immediate opacity-0">
           <div className="absolute left-1/2 transform -translate-x-1/2 flex flex-col sm:flex-row gap-3 sm:gap-4 w-full justify-center px-4">
             <a 
-              href="https://aiwebtools.ai"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cyber-border rounded-lg px-4 sm:px-6 py-2 sm:py-3 bg-cyber-dark/60 backdrop-blur-md hover:animate-pulse-glow transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,238,255,0.5)] text-xs sm:text-sm"
-            >
-              <span className="text-cyber-glow font-cyber">MORE AI TOOLS</span>
-            </a>
-            
-            <a 
               href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt"
               target="_blank"
               rel="noopener noreferrer" 
               className="cyber-border rounded-lg px-4 sm:px-6 py-2 sm:py-3 bg-cyber-blue/20 backdrop-blur-md hover:animate-pulse-glow transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,238,255,0.5)] text-xs sm:text-sm"
             >
               <span className="text-cyber-glow font-cyber">TRY IT NOW</span>
+            </a>
+            
+            <a 
+              href="https://aiwebtools.ai"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cyber-border rounded-lg px-4 sm:px-6 py-2 sm:py-3 bg-cyber-dark/60 backdrop-blur-md hover:animate-pulse-glow transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,238,255,0.5)] text-xs sm:text-sm"
+            >
+              <span className="text-cyber-glow font-cyber">MORE AI TOOLS</span>
             </a>
           </div>
         </div>
