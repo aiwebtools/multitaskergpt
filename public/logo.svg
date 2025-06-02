@@ -1,23 +1,22 @@
 
-
-<svg width="300" height="75" viewBox="0 0 300 75" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Eye Icon -->
-  <g transform="translate(15, 18)">
-    <ellipse cx="19.5" cy="19.5" rx="18" ry="12" fill="none" stroke="url(#eyeGradient)" stroke-width="3"/>
-    <circle cx="19.5" cy="19.5" r="6" fill="url(#eyeGradient)"/>
-    <circle cx="22.5" cy="16.5" r="2.25" fill="white"/>
-  </g>
-  
-  <!-- MULTITASKERGPT Text -->
-  <text x="60" y="30" font-family="Inter, sans-serif" font-size="21" font-weight="700" fill="white">MULTITASKERGPT</text>
-  
-  <!-- Presented by text (clickable) -->
-  <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer">
-    <text x="60" y="52.5" font-family="Inter, sans-serif" font-size="18" font-weight="400" fill="#888" style="cursor: pointer;" class="hover-text">Presented by AiWebTools.AI</text>
+<svg width="450" height="112.5" viewBox="0 0 450 112.5" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" style="cursor: pointer;">
+    <!-- Eye Icon -->
+    <g transform="translate(22.5, 27)">
+      <ellipse cx="29.25" cy="29.25" rx="27" ry="18" fill="none" stroke="url(#eyeGradient)" stroke-width="4.5"/>
+      <circle cx="29.25" cy="29.25" r="9" fill="url(#eyeGradient)"/>
+      <circle cx="33.75" cy="24.75" r="3.375" fill="white"/>
+    </g>
+    
+    <!-- MULTITASKERGPT Text -->
+    <text x="90" y="45" font-family="Inter, sans-serif" font-size="31.5" font-weight="700" fill="white">MULTITASKERGPT</text>
+    
+    <!-- Presented by text -->
+    <text x="90" y="78.75" font-family="Inter, sans-serif" font-size="27" font-weight="400" fill="#888" class="hover-text">Presented by AiWebTools.AI</text>
   </a>
   
   <defs>
-    <linearGradient id="eyeGradient" x1="37.5" y1="7.5" x2="0" y2="31.5" gradientUnits="userSpaceOnUse">
+    <linearGradient id="eyeGradient" x1="56.25" y1="11.25" x2="0" y2="47.25" gradientUnits="userSpaceOnUse">
       <stop stop-color="#00EEFF"/>
       <stop offset="1" stop-color="#0099FF"/>
     </linearGradient>
@@ -27,6 +26,8 @@
     .hover-text:hover {
       fill: #00EEFF;
     }
+    a:hover {
+      opacity: 0.9;
+    }
   </style>
 </svg>
-
