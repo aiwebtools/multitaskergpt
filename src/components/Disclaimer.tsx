@@ -16,6 +16,12 @@ const Disclaimer: React.FC = () => {
 
       <div className="max-w-4xl mx-auto glass-card rounded-xl p-6 md:p-8">
         <div className="space-y-6 text-sm text-gray-300">
+          <div className="p-4 rounded-lg bg-cyber-blue/10 border border-cyber-blue/20 mb-6">
+            <p className="text-cyber-glow font-semibold text-center">
+              <strong>IMPORTANT:</strong> MULTITASKER GPT is provided for informational, educational, and research purposes only.
+            </p>
+          </div>
+          
           <p>
             <strong className="text-white">SERVICE DISCLAIMER:</strong> MULTITASKER GPT is provided "as is" without warranties of any kind, either express or implied. AI WEB TOOLS LLC makes no representations or warranties regarding the accuracy, functionality, or performance of MULTITASKER GPT.
           </p>
@@ -71,7 +77,7 @@ const Disclaimer: React.FC = () => {
           </a>
           <span className="text-gray-600">|</span>
           <a 
-            href="https://aiwebtools.ai/terms-of-services" 
+            href="https://aiwebtools.lovable.app/disclaimers" 
             className="text-cyber-glow hover:underline"
             target="_blank"
             rel="noopener noreferrer"
