@@ -6,42 +6,50 @@ const features = [
   {
     icon: <Layers size={24} className="text-cyber-glow" />,
     title: "Multi-Task Management",
-    description: "Handles multiple complex tasks simultaneously with precision and efficiency."
+    description: "Handles multiple complex tasks simultaneously with precision and efficiency.",
+    keywords: "ai multitasking, task management ai, productivity tools"
   },
   {
     icon: <Search size={24} className="text-cyber-glow" />,
     title: "Real-Time Web Research",
-    description: "Conducts comprehensive web searches to gather accurate, up-to-date information for every task."
+    description: "Conducts comprehensive web searches to gather accurate, up-to-date information for every task.",
+    keywords: "ai research tools, web research ai, information gathering"
   },
   {
     icon: <BarChart4 size={24} className="text-cyber-glow" />,
     title: "Advanced Data Analysis",
-    description: "Creates accurate graphs, charts, and visualizations using Python to represent complex data clearly."
+    description: "Creates accurate graphs, charts, and visualizations using Python to represent complex data clearly.",
+    keywords: "ai data analysis, data visualization ai, analytics tools"
   },
   {
     icon: <Database size={24} className="text-cyber-glow" />,
     title: "Reliable Data Sources",
-    description: "Never uses simulated or fictional data, ensuring all information is factual and reliable."
+    description: "Never uses simulated or fictional data, ensuring all information is factual and reliable.",
+    keywords: "reliable ai data, factual ai information, accurate ai"
   },
   {
     icon: <FileText size={24} className="text-cyber-glow" />,
     title: "Document Compilation",
-    description: "Compiles complete, detailed reports and documentation for each task with proper formatting."
+    description: "Compiles complete, detailed reports and documentation for each task with proper formatting.",
+    keywords: "ai document creation, report generation ai, documentation tools"
   },
   {
     icon: <CheckCircle size={24} className="text-cyber-glow" />,
     title: "Sequential Completion",
-    description: "Works through tasks one by one, ensuring each is completed thoroughly before moving to the next."
+    description: "Works through tasks one by one, ensuring each is completed thoroughly before moving to the next.",
+    keywords: "sequential ai processing, thorough task completion, ai workflow"
   },
   {
     icon: <Clock size={24} className="text-cyber-glow" />,
     title: "Efficient Workflow",
-    description: "Keeps users informed at every stage with clear progress updates and milestone confirmations."
+    description: "Keeps users informed at every stage with clear progress updates and milestone confirmations.",
+    keywords: "ai workflow optimization, progress tracking ai, efficient ai"
   },
   {
     icon: <RefreshCcw size={24} className="text-cyber-glow" />,
     title: "Comprehensive Execution",
-    description: "Ensures every aspect of each task is thoroughly addressed without cutting corners."
+    description: "Ensures every aspect of each task is thoroughly addressed without cutting corners.",
+    keywords: "comprehensive ai solutions, thorough ai execution, complete ai tasks"
   }
 ];
 
@@ -74,26 +82,38 @@ const Features: React.FC = () => {
   }, []);
 
   return (
-    <section className="section py-16 sm:py-20 md:py-24" id="features" ref={containerRef}>
+    <section className="section py-16 sm:py-20 md:py-24" id="features" ref={containerRef} itemScope itemType="https://schema.org/ItemList">
       <div className="text-center mb-10 sm:mb-16">
-        <h2 className="heading-lg mb-3 sm:mb-4 title-gradient inline-block">Powerful Capabilities</h2>
-        <p className="subtitle max-w-3xl mx-auto px-4">
-          MULTITASKER GPT combines advanced AI capabilities to deliver comprehensive solutions for complex, multi-faceted projects.
+        <h2 className="heading-lg mb-3 sm:mb-4 title-gradient inline-block" itemProp="name">Powerful AI Capabilities</h2>
+        <p className="subtitle max-w-3xl mx-auto px-4" itemProp="description">
+          MULTITASKER GPT combines advanced AI capabilities to deliver comprehensive solutions for complex, multi-faceted projects using cutting-edge artificial intelligence technology.
         </p>
+        
+        <!-- SEO content for AI tools keywords -->
+        <div className="sr-only" aria-hidden="true">
+          <h3>Free AI Tools Features</h3>
+          <p>Our AI web tools provide comprehensive artificial intelligence solutions including automated research, data analysis, task management, and productivity enhancement. These free AI tools are designed for businesses, researchers, and individuals seeking advanced AI capabilities.</p>
+        </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-8 sm:mt-12 px-4 sm:px-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-8 sm:mt-12 px-4 sm:px-6" role="list">
         {features.map((feature, index) => (
-          <div 
+          <article 
             key={index} 
             className="feature-card glass-card p-4 sm:p-6 transition-all duration-300 hover:shadow-[0_0_15px_rgba(0,238,255,0.3)] tilt-card opacity-0"
+            itemScope 
+            itemType="https://schema.org/Thing"
+            itemProp="itemListElement"
+            role="listitem"
+            data-keywords={feature.keywords}
           >
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-cyber-dark flex items-center justify-center mb-3 sm:mb-4 cyber-border">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-cyber-dark flex items-center justify-center mb-3 sm:mb-4 cyber-border" role="img" aria-label={`${feature.title} icon`}>
               {feature.icon}
             </div>
-            <h3 className="text-lg sm:text-xl font-cyber font-semibold mb-2 sm:mb-3 text-white">{feature.title}</h3>
-            <p className="text-sm sm:text-base text-gray-300">{feature.description}</p>
-          </div>
+            <h3 className="text-lg sm:text-xl font-cyber font-semibold mb-2 sm:mb-3 text-white" itemProp="name">{feature.title}</h3>
+            <p className="text-sm sm:text-base text-gray-300" itemProp="description">{feature.description}</p>
+            <meta itemProp="keywords" content={feature.keywords} />
+          </article>
         ))}
       </div>
 
@@ -103,9 +123,11 @@ const Features: React.FC = () => {
           className="btn-primary inline-flex items-center gap-2 text-sm sm:text-base text-black font-extrabold"
           target="_blank" 
           rel="noopener noreferrer"
+          aria-label="Experience MULTITASKER GPT AI Tool"
+          itemProp="url"
         >
           Experience MULTITASKER GPT
-          <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
           </svg>
         </a>

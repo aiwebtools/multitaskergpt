@@ -10,6 +10,7 @@ import Disclaimer from '../components/Disclaimer';
 import Footer from '../components/Footer';
 import BackgroundStars from '../components/BackgroundStars';
 import DisclaimerPopup from '../components/DisclaimerPopup';
+import SEOSitemap from '../components/SEOSitemap';
 
 const Index: React.FC = () => {
   useEffect(() => {
@@ -36,13 +37,14 @@ const Index: React.FC = () => {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-screen relative overflow-hidden">
+    <div className="flex flex-col min-h-screen relative overflow-hidden" itemScope itemType="https://schema.org/WebPage">
       <BackgroundStars />
       <DisclaimerPopup />
+      <SEOSitemap />
       
       <div className="content-container">
         <Navbar />
-        <main>
+        <main role="main">
           <Hero />
           <VideoSection />
           <section id="features">
