@@ -47,7 +47,7 @@ const Hero: React.FC = () => {
             ensuring comprehensive web research and detailed execution for each task.
           </p>
 
-          <!-- SEO-optimized hidden content for keywords -->
+          {/* SEO-optimized hidden content for keywords */}
           <div className="sr-only" aria-hidden="true">
             <h2>Free AI Tools and AI Web Tools by AI WEB TOOLS</h2>
             <p>Discover powerful free AI tools for productivity, research, and automation. MULTITASKER GPT is part of our comprehensive suite of AI web tools designed for businesses and individuals seeking advanced artificial intelligence solutions.</p>

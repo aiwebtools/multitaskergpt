@@ -89,7 +89,7 @@ const Features: React.FC = () => {
           MULTITASKER GPT combines advanced AI capabilities to deliver comprehensive solutions for complex, multi-faceted projects using cutting-edge artificial intelligence technology.
         </p>
         
-        <!-- SEO content for AI tools keywords -->
+        {/* SEO content for AI tools keywords */}
         <div className="sr-only" aria-hidden="true">
           <h3>Free AI Tools Features</h3>
           <p>Our AI web tools provide comprehensive artificial intelligence solutions including automated research, data analysis, task management, and productivity enhancement. These free AI tools are designed for businesses, researchers, and individuals seeking advanced AI capabilities.</p>
