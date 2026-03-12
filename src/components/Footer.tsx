@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <a 
-                  href="https://www.aiwebtools.ai" 
+                  href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                   className="text-gray-400 hover:text-cyber-glow transition-colors"
                   target="_blank" 
                   rel="noopener noreferrer"
@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
 
             <div className="mt-5 sm:mt-8">
               <a 
-                href="https://www.aiwebtools.ai" 
+                href="https://aiwebtools.lovable.app/?via=aiwebtools" 
                 className="inline-block py-2 px-4 sm:py-2 sm:px-6 rounded-full cyber-border bg-cyber-dark/60 text-white text-sm hover:bg-cyber-dark hover:text-cyber-glow transition-all duration-300 hover:shadow-[0_0_10px_0_rgba(0,238,255,0.4)]"
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -104,7 +104,7 @@ const Footer: React.FC = () => {
 
         <div className="mt-8 sm:mt-12 pt-6 sm:pt-8 border-t border-gray-800 text-center">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             className="text-gray-400 hover:text-cyber-glow transition-colors text-xs sm:text-sm"
             target="_blank" 
             rel="noopener noreferrer"
