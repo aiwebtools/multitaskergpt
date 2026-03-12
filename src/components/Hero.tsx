@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
             </a>
             
             <a 
-              href="https://aiwebtools.ai"
+              href="https://aiwebtools.lovable.app/?via=aiwebtools"
               target="_blank"
               rel="noopener noreferrer"
               className="divine-cyber-border rounded-xl px-6 sm:px-8 py-4 sm:py-5 bg-cyber-dark/70 backdrop-blur-lg hover:animate-divine-pulse-glow transition-all duration-500 hover:shadow-[0_0_25px_rgba(0,238,255,0.8)] text-sm sm:text-base divine-button-secondary"

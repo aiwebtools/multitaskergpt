@@ -11,7 +11,7 @@ const SEOSitemap: React.FC = () => {
           <li><a href="#features">AI Features - Free AI Tools Capabilities</a></li>
           <li><a href="#faq">FAQ - AI Tools Questions</a></li>
           <li><a href="#disclaimer">Legal Disclaimer - AI Tools Terms</a></li>
-          <li><a href="https://aiwebtools.ai">More AI Tools - AI WEB TOOLS</a></li>
+          <li><a href="https://aiwebtools.lovable.app/?via=aiwebtools">More AI Tools - AI WEB TOOLS</a></li>
           <li><a href="https://chatgpt.com/g/g-CeNnTrmnZ-multitasker-gpt">Access MULTITASKER GPT</a></li>
         </ul>
         
